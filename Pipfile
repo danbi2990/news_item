@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+mecab-python = {path = "/home/jake/Downloads/mecab-python-0.996"}
+pandas = "*"
+redis = "*"
+requests = "*"
+beautifulsoup4 = "*"
+ipykernel = "*"
+camelot-py = "*"
+gspread-pandas = "*"
+wordcloud = "*"
+numpy = "*"
+scipy = "*"
+ipython = "*"
+aiohttp = "*"
+gensim = "*"
+
+[requires]
+python_version = "3.7"
